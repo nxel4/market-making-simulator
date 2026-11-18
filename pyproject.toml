@@ -1,0 +1,9 @@
+[project]
+name = "market-making-simulator"
+version = "1.0.0"
+description = "Educational market-making simulator with Streamlit and Monte Carlo analysis"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
